@@ -1,0 +1,108 @@
+h1
+{
+ color: #FF0000;
+}
+
+h1
+{
+  border: solid;
+}
+
+.Header
+{
+ background-color: #ffaa00;
+ display: flex;
+ justify-content: space-between;
+}
+
+.Menu 
+{
+  margin: 30px;
+  margin-top: 30px;
+}
+
+.Menu * 
+{
+  margin: 30px;
+  margin-top: 30px;
+}
+
+.Grid
+{
+ background-color: #7FFFD4;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+}
+
+.Footer
+{
+  background-color: #483D8B ;
+  display: flex;
+  justify-content: flex-end;  
+}
+
+p,h2
+{
+  text-align: center;  
+}
+
+body
+{
+  background-color: #808080;
+}
+
+.Item img
+{
+  opacity: 0.75;
+}
+
+a:link
+{
+  color: red; 
+}
+
+a:visited
+{
+  color: beige; 
+}
+
+.Item
+{
+  position : relative;
+}
+
+.Item p
+{
+  position : absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  opacity: 0;
+}
+
+.Item:hover p
+{
+  opacity: 1;
+}
+
+.Item:hover img
+{
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+a
+{
+  text-decoration: none ;
+}
+
+a:hover
+{
+  border : solid;
+}
+
+.Grid:hover a 
+{
+  border: none;
+}
